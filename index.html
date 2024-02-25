@@ -21,9 +21,27 @@
 
 <body>
     <script type="module" src="main.js"></script>
-    <button style="bottom: 50px; left:500px; position: absolute;">Simple Fold</button>
+    <button style="top: 50px; right:500px; position: absolute;" id="topViewButton">Top View</button>
+    <button style="top: 75px; right:500px; position: absolute;">Unfold</button>
+    <div style="top: 115px; right:500px; position: absolute; border:solid 1px; min-width: 150px; padding:10px;">
+        <h4>Folds:</h4>
+        <div id="foldlist"></div>
+    </div>
+
+    <form action="" style="bottom: 50px; left:500px; position: absolute;">
+        <select name="fold-type" id="fold-type">
+            <option value="simple">simple</option>
+            <option value="swivel">swivel</option>
+            <option value="squash">squash</option>
+            <option value="petal">petal</option>
+            <option value="frog">croaaaak</option>
+        </select>
+        <input type="submit" value="Fold">
+    </form>
+
+    <!-- <button style="bottom: 50px; left:500px; position: absolute;">Simple Fold</button>
     <button style="bottom: 50px; left:600px; position: absolute;">Squash Fold</button>
-    <button style="bottom: 50px; left:700px; position: absolute;">That's all for now, folks!</button>
+    <button style="bottom: 50px; left:700px; position: absolute;">That's all for now, folks!</button> -->
 
 </body>
 
