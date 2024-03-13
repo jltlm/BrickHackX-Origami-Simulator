@@ -10,3 +10,6 @@ vite:
 npm install --save-dev vite
 
 run using vite
+
+----
+maybe I'll try using the openGL library and java later? But this for now
